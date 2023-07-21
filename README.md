@@ -1,7 +1,7 @@
 # SpringBoot Basic Weekly Mission (Week1)
 
 ### 프로젝트 설계도 및 클래스 역할/책임
-![image](https://github.com/sujjangOvO/springboot-basic/assets/89267864/24c4370d-a996-4049-aed7-5b93c8536ad3)
+![image](https://github.com/sujjangOvO/springboot-basic/assets/89267864/901eac2e-ea62-444d-895d-724a05da51a5)
 
 **1차 리팩토링 이후 설계도**
 ![image](https://github.com/sujjangOvO/springboot-basic/assets/89267864/eb6ad9d8-eb98-4fb3-9647-08546f71b90b)
@@ -28,8 +28,6 @@
     
 - [x]  적절한 로그를 기록하고 `logback` 설정을 해서 에러는 파일로 기록된다.
 - [x]  실행가능한 `jar` 파일을 생성한다.
-
-
 ---
 ### Project History
 - 데브코스 바우처 프로젝트로 코드리뷰를 받아 수정된 프로젝트입니다.

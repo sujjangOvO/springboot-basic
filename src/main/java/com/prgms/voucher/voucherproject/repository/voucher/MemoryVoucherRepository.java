@@ -1,6 +1,6 @@
-package com.prgms.voucher.voucherproject.repository;
+package com.prgms.voucher.voucherproject.repository.voucher;
 
-import com.prgms.voucher.voucherproject.domain.Voucher;
+import com.prgms.voucher.voucherproject.domain.voucher.Voucher;
 import org.springframework.stereotype.Component;
 
 import java.util.*;
@@ -22,6 +22,11 @@ public class MemoryVoucherRepository implements VoucherRepository {
     @Override
     public List<Voucher> findAll() {
         return new ArrayList<>(storage.values());
+    }
+
+    @Override
+    public void deleteById(UUID voucherId) {
+        storage.remove(storage.get(voucherId));
     }
 
 }

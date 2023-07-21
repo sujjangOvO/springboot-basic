@@ -1,13 +1,9 @@
-logging:
-  config:
-    classpath: logback.xml
-
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/voucherproject?useSSL=false
+    url: jdbc:mysql://localhost:3306/voucherproject-test?useSSL=false
     username: spring4
     password: spring4
     driver-class-name: com.mysql.cj.jdbc.Driver
   sql:
     init:
-      mode: never
+      data-locations: schema.sql
