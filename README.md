@@ -1,5 +1,9 @@
 # SpringBoot Basic Weekly Mission (Week1)
 
+### 코드 리뷰 (PR 내역) 링크
+- [week1](https://github.com/prgrms-be-devcourse/springboot-basic/pull/711)
+- [week2](https://github.com/prgrms-be-devcourse/springboot-basic/pull/823)
+
 ### 프로젝트 설계도 및 클래스 역할/책임
 ![image](https://github.com/sujjangOvO/springboot-basic/assets/89267864/901eac2e-ea62-444d-895d-724a05da51a5)
 
